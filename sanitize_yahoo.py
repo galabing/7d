@@ -15,7 +15,7 @@ MIN_COUNT = 1000
 MIN_RATIO = 0.9
 # Maximum number of open days missingg consecutively (above this number
 # the file will be considered invalid and skipped); below this threshold
-# the gap will be filled by linearly interpolating adjacent data points.
+# the gap will be filled by taking the average of adjacent data points.
 MAX_GAP = 0
 
 def init_date_stats():
